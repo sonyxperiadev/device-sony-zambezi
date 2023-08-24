@@ -1,0 +1,5 @@
+logInfoMask=0
+logPerfInfoMask=0
+logVerboseMask=0
+logWarningMask=0
+systemLogEnable=TRUE

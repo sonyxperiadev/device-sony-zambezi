@@ -1,0 +1,32 @@
+genfscon sysfs /devices/platform/soc/884000.i2c                                 u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/88c000.i2c                                 u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/984000.i2c                                 u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/988000.i2c                                 u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/990000.i2c                                 u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/a8c000.i2c                                 u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/a90000.i2c                                 u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/a94000.i2c                                 u:object_r:sysfs_msm_subsys:s0
+
+genfscon sysfs /devices/platform/soc/soc:qcom,ipa_fws                           u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,ipa_uc                            u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/17300000.qcom,lpass                        u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/98900000.qcom,turing                       u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/aab0000.qcom,venus                         u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/188101c.qcom,spss                          u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/ab00000.qcom,cvp                           u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/5c00000.qcom,ssc                           u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/b0000000.qcom,cnss-qca6490                 u:object_r:sysfs_msm_subsys:s0
+
+genfscon sysfs /devices/platform/soc/ac4f000.qcom,cci                           u:object_r:sysfs_camera:s0
+genfscon sysfs /devices/platform/soc/ac50000.qcom,cci                           u:object_r:sysfs_camera:s0
+
+genfscon sysfs /devices/platform/soc/ae00000.qcom,mdss_mdp/backlight/panel0-backlight                                                        u:object_r:sysfs_leds:s0
+
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-03/c440000.qcom,spmi:qcom,pm8350b@3:qcom,hv-haptics@f000                 u:object_r:sysfs_leds:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8350c@2:qcom,leds@ef00                       u:object_r:sysfs_leds:s0
+
+genfscon sysfs /devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:qcom,battery_charger/power_supply/battery/capacity              u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:qcom,battery_charger/power_supply/battery                       u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:qcom,battery_charger/power_supply/usb                           u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:qcom,battery_charger/power_supply/wireless                      u:object_r:sysfs_batteryinfo:s0
+
