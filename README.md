@@ -9,7 +9,7 @@ Android device configuration for the zambezi platform (**SM6375**).
 
 | Device | Codename |
 |-|:-:|
-| Xperia 10 V | [pdx225](https://github.com/sonyxperiadev/device-sony-pdx225) |
+| Xperia 10 V | [pdx235](https://github.com/sonyxperiadev/device-sony-pdx235) |
 
 ### Build instructions
 
