@@ -71,7 +71,6 @@ AUDIO_FEATURE_ENABLED_HDMI_EDID := true
 AUDIO_FEATURE_ENABLED_HDMI_PASSTHROUGH := true
 AUDIO_FEATURE_ENABLED_DISPLAY_PORT := true
 AUDIO_FEATURE_ENABLED_USB_BURST_MODE := true
-AUDIO_FEATURE_SONY_CIRRUS := true
 AUDIO_FEATURE_ENABLED_GKI := true
 
 # Dynamic Partitions: Enable DP
@@ -215,8 +214,7 @@ PRODUCT_PACKAGES += \
 # Audio
 PRODUCT_PACKAGES += \
     sound_trigger.primary.sm6375 \
-    audio.primary.sm6375 \
-    libcirrusspkrprot
+    audio.primary.sm6375
 
 # Camera
 PRODUCT_PACKAGES += \
