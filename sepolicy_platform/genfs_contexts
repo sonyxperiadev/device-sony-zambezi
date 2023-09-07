@@ -15,13 +15,14 @@ genfscon sysfs /devices/platform/soc/b0000000.qcom,cnss-qca6490                 
 genfscon sysfs /devices/platform/soc/5c1b000.qcom,cci                           u:object_r:sysfs_camera:s0
 genfscon sysfs /devices/platform/soc/5c1c000.qcom,cci                           u:object_r:sysfs_camera:s0
 
-genfscon sysfs /devices/platform/soc/5e00000.qcom,mdss_mdp/backlight/panel0-backlight                                                        u:object_r:sysfs_leds:s0
+genfscon sysfs /devices/platform/soc/5e00000.qcom,mdss_mdp/backlight/panel0-backlight                                                            u:object_r:sysfs_leds:s0
 
-genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-03/1c40000.qcom,spmi:qcom,pm7250b@3:qcom,vibrator@5300/leds/vibrator     u:object_r:sysfs_leds:s0
+genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-03/1c40000.qcom,spmi:qcom,pm7250b@3:qcom,vibrator@5300/leds/vibrator         u:object_r:sysfs_leds:s0
 
-genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/1c40000.qcom,spmi:qcom,pm7250b@2:qcom,qpnp-smb5/power_supply/battery  u:object_r:sysfs_batteryinfo:s0
-genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/1c40000.qcom,spmi:qcom,pm7250b@2:qcom,qpnp-smb5/power_supply/dc       u:object_r:sysfs_batteryinfo:s0
-genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/1c40000.qcom,spmi:qcom,pm7250b@2:qcom,qpnp-smb5/power_supply/pc_port  u:object_r:sysfs_batteryinfo:s0
-genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/1c40000.qcom,spmi:qcom,pm7250b@2:qcom,qpnp-smb5/power_supply/usb      u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/1c40000.qcom,spmi:qcom,pm7250b@2:qcom,qpnp-smb5/power_supply/battery      u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/1c40000.qcom,spmi:qcom,pm7250b@2:qcom,qpnp-smb5/power_supply/battery_ext  u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/1c40000.qcom,spmi:qcom,pm7250b@2:qcom,qpnp-smb5/power_supply/dc           u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/1c40000.qcom,spmi:qcom,pm7250b@2:qcom,qpnp-smb5/power_supply/pc_port      u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/1c40000.qcom,spmi:qcom,pm7250b@2:qcom,qpnp-smb5/power_supply/usb          u:object_r:sysfs_batteryinfo:s0
 
-genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/1c40000.qcom,spmi:qcom,pm7250b@2:qpnp,qg/power_supply/bms             u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/1c40000.qcom,spmi:qcom,pm7250b@2:qpnp,qg/power_supply/bms                 u:object_r:sysfs_batteryinfo:s0
