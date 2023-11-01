@@ -264,11 +264,6 @@ PRODUCT_PACKAGES += \
     sns_reg_config \
     hals.conf
 
-# SPU
-PRODUCT_PACKAGES += \
-    authsecret.rc \
-    spu.rc
-
 # SSC Common config
 PRODUCT_PACKAGES += \
     ak991x_dri_0.json \
