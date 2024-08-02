@@ -226,6 +226,10 @@ PRODUCT_PACKAGES += \
     hwcomposer.sm6375 \
     memtrack.default
 
+# HVDCP init
+PRODUCT_PACKAGES += \
+    hvdcp_opti.rc
+
 # Keymaster 4 passthrough service init file
 # (executable is on odm)
 PRODUCT_PACKAGES += \
