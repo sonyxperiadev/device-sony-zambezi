@@ -100,7 +100,9 @@ TARGET_USES_SDE := true
 
 # A/B support
 AB_OTA_UPDATER := true
-PRODUCT_SHIPPING_API_LEVEL := 27
+
+# Platform has been launched on Android 13 (API level 33)
+PRODUCT_SHIPPING_API_LEVEL := 33
 
 # A/B OTA dexopt package
 PRODUCT_PACKAGES += \
